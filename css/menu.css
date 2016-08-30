@@ -1,0 +1,54 @@
+body{
+	background: red;
+}
+nav ul{
+	background:blue;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	padding: 0;
+}
+nav ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+nav ul li{
+	float: left;
+}
+nav ul li:hover{
+	background: #56B2EC;
+}
+nav ul li a{
+	display: block;
+	padding: 15px 25px;
+	color: #ffff00;
+	text-decoration: none;
+}
+/*menghilangkan semua sub menu*/
+nav ul ul{
+	display: none; 
+	background: blue; 
+	border-radius: 0;
+	padding: 10;
+	position: absolute;
+	top: 100%;
+	width:  
+}
+/*munculkan sub menu ketika di dekati kursor*/
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li a{
+	float: none;
+	border-top: ipx solid #000000;
+	position: relative;
+}
+nav ul ul li a{
+	padding: 10px 20px;
+	color: #fff;
+}
+nav ul ul li a:hover{
+	background: 
+}
+
